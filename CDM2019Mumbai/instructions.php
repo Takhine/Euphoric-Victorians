@@ -4,6 +4,9 @@
   <?php
   include "head.php";
   ?>
+  <?php
+  session_start();
+  ?>
   <body>
     <section id="instructions-section">
     <!-- Start Container -->
@@ -11,6 +14,7 @@
       <div class="my-4">
       <div class="jumbotron">
         <h1 class="text-center my-2">Test Instructions</h1>
+        <p>Welcome <?php echo $_SESSION['username']; ?></p>
         <nav>
             <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-instructions-tab" data-toggle="tab" href="#instructions-tab" role="tab" aria-controls="nav-instructions" aria-selected="true">Instructions</a>
