@@ -4,22 +4,91 @@ dark blue 	#0988C5
 light blue 	#12AF92
 background #f2f2f2*/
 /*Base Styles*/
-
+*{
+	color: #333;
+}
+body{
+	background-color: #dee2ec;
+}
+.mt60{
+	margin-top: 60px;
+}
+.jumbotron{
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.next-btn{
+	background-color: #12AF92;
+	color: #fff;
+}
+/* TIMER */
+.timer{
+	position: fixed;
+	top: 10px;
+	right: 40px;
+	background-color: #fff;
+	box-shadow:0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	padding:20px;
+	border-radius: 7px;
+}
+.page-title {
+	color: #333;
+	letter-spacing: 0.0125em;
+	margin: 0;
+  }
+  .page-title::after {
+	background-image: linear-gradient(to right, #aaa, #aaa 15%, #aaa 15%, #aaa 85%, #aaa 85%);
+	content: "";
+	display: block;
+	height: 0.1em;
+	margin: 0.35em 0;
+	width: 100%;
+  }
+  footer::before{
+	background-image: linear-gradient(to right, #aaa, #aaa 15%, #aaa 15%, #aaa 85%, #aaa 85%);
+	content: "";
+	display: block;
+	height: 0.1em;
+	margin: 0.35em 0;
+	width: 100%;
+  }
+  /* About Page */
+.about-img-wrapper{
+	text-align: center;
+}
+.about-img{
+	margin:auto;
+	max-width:300px;
+	padding: 20px;
+}
+.visit-us{
+	color:#333;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.visit-us:hover{
+	color: #12AF92;
+	text-decoration: none;
+}
+/* Login Page */
 #login-box{
 	max-width: 600px;
 	margin: auto;
 }
-#login-heading{
-	font-size: 1.5rem;
-}
+
 
 /* Instructions Page */
-#instructions-section #disclaimer{
+#disclaimer{
 	color:#12AF92;
 	font-size: 1rem;
 }
-
-
+#instructions-section .card-body{
+	background-color: #12AF92;
+}
+#instructions-section .card-title,#instructions-section p{
+	color: #fff;
+}
 .nav-tabs{
 	padding: 40px;
 }
@@ -42,3 +111,37 @@ background #f2f2f2*/
     font-size: 16px;
     font-weight: 600;
 }
+
+/* Test Page */
+.quiz ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+
+}
+.quiz-answer {
+	margin:0;
+	padding:10px;
+	background:#f7f7f7;
+	margin-bottom:5px;
+	cursor: pointer;
+	  color: #545454;
+  }
+  .quiz-answer:hover {
+		  background:#eee;
+  
+	}
+   .quiz-answer:before {
+	  content:"";
+	  display:inline-block;
+	  width:15px;
+	  height:15px;
+	  border:1px solid #ccc;
+	  background:#fff;
+	  margin-right:10px;
+	}
+	
+  .active:before {
+		background-color:#333;
+		border-color:#333;
+	  }

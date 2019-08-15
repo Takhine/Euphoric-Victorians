@@ -13,7 +13,7 @@
     <div class="container">
       <div class="my-4">
       <div class="jumbotron">
-        <h1 class="text-center my-2">Test Instructions</h1>
+        <h1 class="page-title my-4">Test Instructions</h1>
         <h2>Welcome <?php echo $_SESSION['username']; ?></h2>
         <nav>
             <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
@@ -61,7 +61,9 @@
         </div>
         <div class="my-4 row">
             <div class="col-sm-12 d-flex justify-content-end">
-              <button type="submit" class="btn btn-primary ">Take Test</button>
+              <a href="test.php">
+              <button type="submit" class="btn next-btn">Take Test</button>
+              </a>
             </div>
           </div>
       </div>     

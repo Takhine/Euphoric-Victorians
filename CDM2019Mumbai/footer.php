@@ -1,3 +1,6 @@
+<footer class="text-center">
+<small>Trademarked & Copyrighted 2019 <b>Market With Maddy</b>&trade; All Rights Reserved . Conceptualized, Designed & Developed by <a id="footer-mwm" target="_blank" href="https://www.marketwithmaddy.com/"><b>Market With Maddy</b></a>&trade;</small>
+</footer>
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

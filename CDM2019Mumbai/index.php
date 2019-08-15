@@ -10,7 +10,7 @@
     <div class="container">
       <div class="my-4">
       <div id="login-box" class="jumbotron">
-        <h1 id="login-heading" class="text-center my-2">CDM 2019 Mumbai</h1>
+        <h1 class="page-title my-4">CDM 2019 Mumbai</h1>
         <form action="login.php" method="post">
           <div class="form-group row">
             <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
@@ -29,7 +29,7 @@
           </div>
           <div class="form-group row">
             <div class="col-sm-12 d-flex justify-content-end">
-              <button type="submit" class="btn btn-primary ">Proceed</button>
+              <button type="submit" class="btn next-btn">Proceed</button>
             </div>
           </div>
         </form>
