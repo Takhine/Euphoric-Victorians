@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="title" content="Euphoric Victorians | Leaders In Learning">
     <meta name="description" content="Euphoric Victorians is a platform aimed at bridging the gap between quality and education. We lead out, raise and educate while training the system from within.">
-    <link rel="icon" sizes="16x16" href="favicon.ico">
+    <link rel="icon" sizes="16x16" href="../favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">

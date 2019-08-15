@@ -1,11 +1,11 @@
+<?php
+  session_start();
+  ?>
 <!doctype html>
 <html lang="en">
   <!-- Head -->
   <?php
   include "head.php";
-  ?>
-  <?php
-  session_start();
   ?>
   <body>
     <section id="instructions-section">
@@ -14,7 +14,7 @@
       <div class="my-4">
       <div class="jumbotron">
         <h1 class="text-center my-2">Test Instructions</h1>
-        <p>Welcome <?php echo $_SESSION['username']; ?></p>
+        <h2>Welcome <?php echo $_SESSION['username']; ?></h2>
         <nav>
             <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-instructions-tab" data-toggle="tab" href="#instructions-tab" role="tab" aria-controls="nav-instructions" aria-selected="true">Instructions</a>
@@ -23,8 +23,7 @@
         </nav>
         <div class="tab-content" id="nav-tabContent">
           <div class="tab-pane fade show active" id="instructions-tab" role="tabpanel" aria-labelledby="nav-instructions-tab">
-            <h2>Disclaimer</h2>
-            <h3>Please read the instructions carefully before starting the test.</h3>
+            <h3 id="disclaimer">Please read the instructions carefully before starting the test.</h3>
             <ul>
               <li>Click <b>Take test</b> on the bottom of your screen to begin the test.</li>
               <li>The clock has been set at server and count down timer at the top-right corner of the screen will display the left out time to closure from where you can monitor remaining time to complete the exam.</li>

@@ -12,3 +12,33 @@ background #f2f2f2*/
 #login-heading{
 	font-size: 1.5rem;
 }
+
+/* Instructions Page */
+#instructions-section #disclaimer{
+	color:#12AF92;
+	font-size: 1rem;
+}
+
+
+.nav-tabs{
+	padding: 40px;
+}
+ .nav-tabs .nav-link.active {
+    color: #12AF92;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-tabs .nav-link:hover {
+    color: #0988C5;
+}
+ .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #12AF92;
+    font-size: 16px;
+    font-weight: 600;
+}
